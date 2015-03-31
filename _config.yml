@@ -1,0 +1,13 @@
+# Site settings
+title: Qing's Blog
+email: cuiqing.thu at gmail dot com 
+description: > # this means to ignore newlines until "baseurl:"
+  A website for sharing experience.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://haccanri.github.io" # the base hostname & protocol for your site
+github_username:  haccanri
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+encoding: utf-8
