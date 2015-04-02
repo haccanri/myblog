@@ -25,6 +25,12 @@ tags: markdown pandoc jekyll
 pandoc test.md -o test.pdf --latex-engine=xelatex -V mainfont="Microsoft YaHei"
 pandoc test.md -o test.docx --css=https://raw.githubusercontent.com/nicolashery/markdownpad-github/master/markdownpad-github.css (不加`--css`选项貌似效果一样)
 {% endhighlight %}
+4. pandoc的更多用法参见http://johnmacfarlane.net/pandoc/demos.html
+    - 用--toc选项可以在html中生成目录。
+    - 用beamer做slides也超赞
+    - HTML slide shows也超赞
+5. 用pandoc可以把带latex公式的markdown文件转化成docx的公式以及包含公式的pdf，这个超赞！
+
 
 # Jekyll参考资料
 1. 安装
