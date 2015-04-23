@@ -5,6 +5,8 @@ date:   2015-03-31 13:50:52
 categories: learning
 tags: markdown pandoc jekyll
 ---
+本贴介绍我在学习Markdown, Pandoc, Jekyll的过程中很初步的一些经验。
+
 # Markdown参考资料
 1. GFM(GitHub Flavored Markdown)
     + <https://help.github.com/articles/github-flavored-markdown/>
