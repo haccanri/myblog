@@ -7,7 +7,7 @@ tags: TeXmaker TeXstudio
 ---
 本贴介绍我在写毕业论文的过程中使用TeXstudio的一些经验。
 
-在一开始的时候我用的是[Texmaker],由于包含中文以及多个文件的tex和pdf的跳转有问题，在写毕业论文的过程中我最终转向了[TeXstudio]。经过一段时间的体验，我觉得TeXstudio还是很棒的。TeXstudio是曾经从Texmaker独立出来之后发展起来的一个tex编辑器，很多界面命令都一样，从Texmaker到TeXstudio的迁移是容易的。整体上来说，Texmaker的设计更倾向于对用户友好，不易出错，有点像Apple公司的风格（不过windows下的UI真心一般），TeXstudio适合码农来用（普通使用也是棒棒哒），有各种高级设置，可编程的宏命令功能非常强大。下面对比下两款软件。
+在一开始的时候我用的是[Texmaker]，由于包含中文以及多个文件的tex和pdf的跳转有问题，在写毕业论文的过程中我最终转向了[TeXstudio]。经过一段时间的体验，我觉得TeXstudio还是很棒的。TeXstudio是曾经从Texmaker独立出来之后发展起来的一个tex编辑器，很多界面命令都一样，从Texmaker到TeXstudio的迁移是容易的。整体上来说，Texmaker的设计更倾向于对用户友好，不易出错，有点像Apple公司的风格（不过windows下的UI真心一般），TeXstudio适合码农来用（普通使用也是棒棒哒），有各种高级设置，可编程的宏命令功能非常强大。下面对比下两款软件。
 
 ## TeXmaker和TeXstudio对比 ##
 
@@ -47,7 +47,7 @@ tags: TeXmaker TeXstudio
 
 ### 高级使用 ###
 
-通过导入我的[配置文件]({{ site.url }}/downloads/files/qing_2015_04_21.txsprofile)可以拥有文中提及的一些功能。
+通过导入我的[配置文件]({{ site.url }}/downloads/files/qing_2015_04_21.txsprofile)可以拥有文中提及的一些功能。通过“选项-加载配置文件”来加载。
 
 #### 自定义补全 ####
 
@@ -91,8 +91,6 @@ editor.write("第" + cmd + "章");
 editor.write(cmd + "节");
 } else if (type == "thm") {
 editor.write("定理" + cmd);
-} else if (type == "def") {
-editor.write("定义" + cmd);
 } else if (type == "def") {
 editor.write("定义" + cmd);
 } else if (type == "alg") {
